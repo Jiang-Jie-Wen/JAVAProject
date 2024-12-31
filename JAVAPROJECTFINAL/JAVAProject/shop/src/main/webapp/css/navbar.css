@@ -1,0 +1,79 @@
+:root {
+  --navbar-height: 80px;
+  --navbar-bg-color: #000;
+  --navbar-link-color: #fff;
+  --navbar-icon-color: #fff;
+}
+
+.darkmode {
+  --navbar-bg-color: #fff;
+  --navbar-link-color: #000;
+  --navbar-icon-color: #000;
+}
+
+.navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  display: flex;
+  position: relative;
+  background-color: var(--navbar-bg-color);
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+  & li {
+    margin: 10px;
+  }
+}
+
+.link {
+  font-size: 20px;
+  color: var(--navbar-link-color);
+  text-decoration: none;
+  padding: 10px;
+  opacity: 0.7;
+  transition: 0.5s;
+  &.active,
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.user-interactions {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cart,
+.user {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon,
+.user-icon {
+  width: 100%;
+  height: 100%;
+  color: var(--navbar-icon-color);
+}
+
+.cart-item-count {
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  color: var(--navbar-link-color);
+  padding: 5px;
+  border-radius: 50%;
+  background: var(--navbar-bg-color);
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+}

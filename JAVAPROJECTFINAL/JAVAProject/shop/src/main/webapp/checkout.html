@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/flaot_btn.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <title>結帳</title>
+  </head>
+  <body data-page="cart">
+    <nav id="navbar"></nav>
+    <div id="floating_btn"></div>
+    <div class="main">
+      <div class="container">
+        <div class="left-side">
+            <h2>填寫送件資訊</h2>
+            <div class="form-group">
+              <label for="name">姓名</label>
+              <input type="text" id="name" name="name" placeholder="請輸入姓名">
+            </div>
+            <div class="form-group">
+              <label for="address">地址</label>
+              <input type="text" id="address" name="address" placeholder="請輸入送貨地址">
+            </div>
+            <div class="form-group">
+              <label for="phone">電話</label>
+              <input type="text" id="phone" name="phone" placeholder="請輸入聯絡電話">
+            </div>
+            <div class="check-group">
+                <input type="checkbox" id="checkInfo">
+                <label for="checkInfo">與會員資料相同</label>
+            </div>
+            <div class="form-group">
+              <label for="payment">付款方式</label>
+              <select id="payment" name="payment">
+                <option value="credit_card">信用卡</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank_transfer">銀行轉帳</option>
+              </select>
+            </div>
+            <button class="button" onclick="submitForm()">送出訂單</button>
+          </div>
+      
+          <div class="right-side">
+            <h2>購物車</h2>
+            <div id="showCart"></div>
+            <div class="total" id="totalPrice">              
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+    
+    <script src="js/navbar.js"></script>
+    <script src="js/floating_btn.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/checkout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公告管理</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/reviewpost.css">
+</head>
+<body>
+    <div id="sidebar"></div>
+    <div class="main">
+      <div class="container">
+        <h1>公告列表</h1>
+        <button class="add-btn" onclick="addPost()">新增公告</button>
+        <div id="emptyMessage" class="empty-message"></div>
+        <ul id="post-list">
+        </ul>
+        <div id="showmodal">
+            <div class="modal-content">
+              <div class="input-group">
+                <label for="posttitle">商品標題</label>
+                <input type="text" id="posttitle" name="posttitle" required>
+              </div>
+
+              <div class="input-group">
+                  <label for="postcontext">公告內文</label>
+                  <textarea id="postcontext" name="postcontext" required></textarea>
+              </div>
+
+              <div class="input-group" id="poststatusgroup">
+                <label for="poststatus">公告狀態</label>
+                <select id="poststatus" name="poststatus" required>
+                  <option value="1">發布</option>
+                  <option value="0">隱藏</option>
+                </select>
+              </div>
+
+              <div class="btngroup">
+                <button id="addPostBtn" onclick="addnewPost()">新增公告</button>
+                <button id="editPostBtn" onclick="updatePost()">編輯公告</button>
+                <button class="delete-btn" id="delPostBtn" onclick="deletePost()">刪除公告</button>
+                <button class="close-btn" onclick="closeModal()">關閉</button>
+              </div>              
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/sidebar.js"></script>
+    <script src="js/reviewpost.js"></script>
+</body>
+</html>

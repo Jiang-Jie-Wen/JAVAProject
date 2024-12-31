@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <title>管理員登入</title>
+</head>
+<body>
+    <div class="main">
+        <div class="form-container">
+          <div class="form form-show" id="form-login">
+            <h1>管理員登入</h1>
+            <p class="errortext" id="login-error-message"></p>
+            <div class="input-group">
+              <label for="account-input">
+                <span><i class="fa-solid fa-user-tie"></i></span>
+              </label>
+              <input
+                type="email"
+                name="acount"
+                id="account-input"
+                placeholder="帳號"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label for="password-input">
+                <span><i class="fa-solid fa-lock"></i></span>
+              </label>
+              <input
+                type="password"
+                name="password"
+                id="password-input"
+                placeholder="密碼"
+                required
+              />
+            </div>
+            <div class="buttongroup">
+              <button id="login_btn">登入</button>
+          </div>
+        </div>           
+    </div>
+    <script src="js/login.js"></script>
+</body>
+</html>

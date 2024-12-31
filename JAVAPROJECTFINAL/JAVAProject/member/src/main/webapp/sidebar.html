@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <script src="js/sidebar.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="menu">            
+            <div id="btn" onclick="togglesidebar()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="logo">會員專區</div>            
+        </div>
+        <ul class="sidebar-list">
+            <li>
+                <a href="edituser.html">
+                    <i class="fa-solid fa-user-pen"></i>
+                    <span class="link_title">編輯個人資料</span>
+                </a>
+                <span class="tip">編輯個人資料</span>
+            </li>
+            <li>
+                <a href="vieworder.html">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <span class="link_title">查看訂單</span>
+                </a>
+                <span class="tip">查看訂單</span>
+            </li>
+            <li>
+                <a href="editproduct.html">
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                    <span class="link_title">商品管理</span>
+                </a>
+                <span class="tip">商品管理</span>
+            </li>
+            <li>
+                <a href="fulfillment.html">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <span class="link_title">出貨管理</span>
+                </a>
+                <span class="tip">出貨管理</span>
+            </li>
+            <li>
+                <a href="../shop/product.html">
+                    <i class="fa-solid fa-reply-all"></i>
+                    <span class="link_title">返回首頁</span>
+                </a>
+                <span class="tip">返回首頁</span>
+            </li>
+            <li>
+                <a href="/shop/Logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span class="link_title">登出</span>
+                </a>
+                <span class="tip">登出</span>
+            </li>
+        </ul>
+
+        
+    </div>
+</body>
+</html>

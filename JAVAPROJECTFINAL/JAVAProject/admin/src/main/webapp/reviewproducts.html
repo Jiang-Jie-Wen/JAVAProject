@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品審核</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/reviewproducts.css">
+</head>
+<body>
+    <div id="sidebar"></div>
+    <div class="main">
+      <div class="container">
+        <h1>商品審核</h1>        
+        <div id="emptyMessage" class="empty-message"></div>
+        <ul id="product-list">
+        </ul>
+        <div id="showmodal">
+            <div class="modal-content">
+              <div class="input-group">
+                <label for="productName">商品名稱</label>
+                <input type="text" id="productName" name="productName">
+              </div>
+
+              <div class="input-group">
+                  <label for="productPrice">商品價格</label>
+                  <input type="text" id="productPrice" name="productPrice">
+              </div>
+
+              <div class="input-group">
+                  <label for="productCategory">商品種類</label>
+                  <input type="text" id="productCategory" name="productCategory">
+              </div>
+
+              <div class="input-group">
+                  <label for="productUnit">商品單位</label>
+                  <input type="text" id="productUnit" name="productUnit">
+              </div>
+
+              <div class="input-group">
+                  <label>商品圖片</label>
+                  <img src="" alt="" id="productImage">
+              </div>
+
+              <div class="btngroup">
+                <button id="passedBtn" onclick="passed()">通過</button>
+                <button id="failedBtn" class="passedBtn" onclick="failed()">未通過</button>
+                <button class="close-btn" onclick="closeModal()">關閉</button>
+              </div>              
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/sidebar.js"></script>
+    <script src="js/reviewproducts.js"></script>
+</body>
+</html>

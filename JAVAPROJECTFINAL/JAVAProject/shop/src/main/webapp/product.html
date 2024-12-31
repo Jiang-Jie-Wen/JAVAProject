@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/flaot_btn.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <title>瀏覽商品</title>
+  </head>
+  <body data-page="product">
+    <nav id="navbar"></nav>
+    <div id="floating_btn"></div>
+    <div class="main">
+      <div class="sreach-group">
+        <select name="commdity" id="commdity">
+          <option value="0">全部</option>
+        </select>
+        <select name="sortby" id="sortby">
+          <optgroup label="日期">
+            <option value="new">由新到舊</option>
+            <option value="old">由舊到新</option>
+          </optgroup>
+          <optgroup label="價格">
+            <option value="high">由高到低</option>
+            <option value="low">由低到高</option>
+          </optgroup>
+        </select>
+        <input type="text" id="search" />
+        <i class="fa-solid fa-magnifying-glass" onclick="search()"></i>
+      </div>
+      
+        <div class="product-container" id="product-container">
+          <p>查無商品</p>
+        </div>
+      
+      <nav class="pagination-container">
+        <ul class="pagination" id="pagination"></ul>
+      </nav>
+    </div>
+    <footer id="footer"></footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/floating_btn.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/products.js"></script>
+  </body>
+</html>

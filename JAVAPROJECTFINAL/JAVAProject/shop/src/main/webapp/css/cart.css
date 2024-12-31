@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: var(--background-color);
+    min-height: calc(100vh - 180px);
+    width: 100%;
+    display: block;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.header-flex-2{
+    flex: 2;
+}
+
+.header-flex-1{
+    flex: 1;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+.cart-item span {
+    font-size: 16px;   
+}
+.cart-item .name {
+    flex: 2;
+}
+
+.cart-item .price {
+    flex: 1;
+    text-align: center;
+}
+
+.cart-item .qty {
+    flex: 1;
+    text-align: center;
+}
+
+.cart-item .total-price {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cart-item input {
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cart-item button {
+    padding: 5px 10px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #e13c3c;
+}
+
+.total {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.checkout-btn {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.checkout-btn:hover {
+    background-color: #45a049;
+}
+
+.cart-item .actions {
+    flex: 1;
+    text-align: right;
+}
+
+.cart-header {
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.cart-header span {
+    text-align: center;
+}
+
+.empty-cart-message {
+    text-align: center;
+    color: #ff4c4c;
+    font-size: 18px;
+    margin-top: 10px;
+}

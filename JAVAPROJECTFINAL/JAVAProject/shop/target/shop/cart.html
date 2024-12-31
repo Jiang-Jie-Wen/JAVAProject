@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/flaot_btn.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <title>購物車</title>
+  </head>
+  <body data-page="cart">
+    <nav id="navbar"></nav>
+    <div id="floating_btn"></div>
+    <div class="main">
+      <div class="container">
+        <h1>購物車</h1>
+        <div id="emptyMessage" class="empty-cart-message"></div>
+        <div id="cart"></div>
+        <div class="total">
+          <span>總金額: $<span id="totalPrice">0</span></span>
+          <button class="checkout-btn" onclick="checkout()">結帳</button>
+        </div>
+        
+    </div>
+    </div>
+    <footer id="footer"></footer>
+    
+    <script src="js/navbar.js"></script>
+    <script src="js/floating_btn.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>

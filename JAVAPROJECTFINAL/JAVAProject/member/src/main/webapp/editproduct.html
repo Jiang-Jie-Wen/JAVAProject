@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品管理</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>    
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/editproduct.css">
+</head>
+<body>
+    <div id="sidebar"></div>
+    <div class="main">
+      <div class="container">
+        <h1>商品列表</h1>
+        <button class="add-btn" onclick="addProduct()">新增商品</button>
+        <div id="emptyMessage" class="empty-message"></div>
+        <ul id="product-list">
+        </ul>
+        <div id="showmodal">
+            <div class="modal-content">
+              <div class="input-group">
+                <label for="productName">商品名稱</label>
+                <input type="text" id="productName" name="productName" required>
+              </div>
+
+              <div class="input-group">
+                  <label for="productPrice">商品價格</label>
+                  <input type="number" id="productPrice" name="productPrice" required>
+              </div>
+
+              <div class="input-group">
+                  <label for="productCategory">商品種類</label>
+                  <select id="productCategory" name="productCategory" required>
+                      
+                  </select>
+              </div>
+
+              <div class="input-group">
+                  <label for="productUnit">商品單位</label>
+                  <input type="text" id="productUnit" name="productUnit" required>
+              </div>
+
+              <div class="input-group">
+                  <label for="productImage">商品圖片(png/jpg/jpeg)</label>
+                  <input type="file" id="productImage" name="productImage" accept="image/png,image/jpg,image/jpeg" required>
+              </div>
+
+              <div class="btngroup">
+                <button id="addProductBtn" onclick="addnewProduct()">新增商品</button>
+                <button id="editProductBtn" onclick="updateProduct()">編輯商品</button>
+                <button class="delete-btn" id="delProductBtn" onclick="deleteProduct()">刪除商品</button>
+                <button class="close-btn" onclick="closeModal()">關閉</button>
+              </div>              
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/sidebar.js"></script>
+    <script src="js/editproduct.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: var(--background-color);
+    min-height: calc(100vh - 180px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.container h2{
+    margin-bottom: 20px;
+}
+
+.left-side {
+    width: 50%;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.right-side {
+    width: 50%;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    &.incorrect {    
+        border: 2px solid #f06272;    
+    }
+}
+
+.check-group {
+    margin-bottom: 30px;
+}
+
+.check-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item .name {
+    font-weight: bold;
+    min-width: 80px;
+}
+
+.cart-item .qty {
+    display: block;
+    min-width: 80px;
+}
+
+.cart-item .price {
+    display: block;
+    min-width: 80px;
+}
+
+.cart-item .totalPrice {
+    display: block;
+    min-width: 80px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+}
