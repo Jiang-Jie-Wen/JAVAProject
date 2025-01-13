@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
+  <diagram name="第 1 页" id="wOwg80z5H63S-ddcMEuM">
+    <mxGraphModel dx="1264" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-1" value="&amp;lt;&amp;lt;bundary&amp;gt;&amp;gt;&lt;div&gt;瀏覽商品UI&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="160" height="180" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-2" value="&lt;div&gt;- 商品名稱&lt;/div&gt;&lt;div&gt;- 商品圖片&lt;/div&gt;&lt;div&gt;- 商品售價&lt;/div&gt;&lt;div&gt;- 單位&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-1">
+          <mxGeometry y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-1">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-4" value="+ 顯示商品資訊()&lt;div&gt;+ 新增商品至購物車()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-1">
+          <mxGeometry y="128" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-5" value="&amp;lt;&amp;lt;bundary&amp;gt;&amp;gt;&lt;div&gt;購物車UI&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="160" height="220" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-6" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 商品名稱&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 商品售價&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 單位&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 數量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 總金額&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-5">
+          <mxGeometry y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-5">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-8" value="+ 顯示購物車資訊()&lt;div&gt;+ 修改商品數量()&lt;/div&gt;&lt;div&gt;+ 刪除商品()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-5">
+          <mxGeometry y="148" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-10" target="w_PFwlCMdvlXH4RP7YTI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-10" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;div&gt;顯示&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="160" height="180" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-10">
+          <mxGeometry y="40" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-12" value="+ 顯示商品資訊()&lt;div&gt;+ 載入商品資訊()&lt;/div&gt;&lt;div&gt;+ 顯示購物車資訊()&lt;/div&gt;&lt;div&gt;+ 載入購物車資訊()&lt;/div&gt;&lt;div&gt;+ 加入購物車()&lt;/div&gt;&lt;div&gt;+ 修改完成()&lt;/div&gt;&lt;div&gt;+ 刪除完成()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-10">
+          <mxGeometry y="48" width="160" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-13" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;div&gt;商品資料&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="160" height="210" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-14" value="&lt;div&gt;- 編號&lt;/div&gt;&lt;div&gt;- 分類&lt;/div&gt;&lt;div&gt;- 名稱&lt;/div&gt;&lt;div&gt;- 審核狀態&lt;/div&gt;&lt;div&gt;- 價格&lt;/div&gt;&lt;div&gt;- 單位&lt;/div&gt;&lt;div&gt;- 預覽圖&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=5;spacingRight=0;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-13">
+          <mxGeometry y="40" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-13">
+          <mxGeometry y="170" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-16" value="+ 讀取商品資料()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=0;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacing=0;html=1;whiteSpace=wrap;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-13">
+          <mxGeometry y="178" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-18" target="w_PFwlCMdvlXH4RP7YTI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-18" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;div&gt;新增&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="160" height="80" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-18">
+          <mxGeometry y="40" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-20" value="+ 新增商品至購物車()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-18">
+          <mxGeometry y="48" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-21" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;&lt;div&gt;購物車資料&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="160" height="210" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-22" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 分類&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- 名稱&lt;/div&gt;&lt;div&gt;- 價格&lt;/div&gt;&lt;div&gt;- 單位&lt;/div&gt;&lt;div&gt;- 預覽圖&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=5;spacingRight=0;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;labelPosition=center;verticalLabelPosition=middle;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-21">
+          <mxGeometry y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-21">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-24" value="+ 讀取購物車資料()&lt;div&gt;+ 寫入購物車資料()&lt;/div&gt;&lt;div&gt;+ 刪除購物車資料()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=0;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;spacing=0;html=1;whiteSpace=wrap;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-21">
+          <mxGeometry y="138" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-25" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;div&gt;刪除&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="160" height="80" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-25">
+          <mxGeometry y="40" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-27" value="+ 刪除商品()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-25">
+          <mxGeometry y="48" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=open;startFill=0;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-29" target="w_PFwlCMdvlXH4RP7YTI-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-29" value="&amp;lt;&amp;lt;control&amp;gt;&amp;gt;&lt;div&gt;修改&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="160" height="80" as="geometry">
+            <mxRectangle x="400" y="240" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;spacing=0;spacingBottom=0;fontSize=14;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-29">
+          <mxGeometry y="40" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-31" value="+ 修改商品數量()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=5;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=0;spacingBottom=0;fontSize=14;spacingTop=5;" vertex="1" parent="w_PFwlCMdvlXH4RP7YTI-29">
+          <mxGeometry y="48" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-4" target="w_PFwlCMdvlXH4RP7YTI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-2" target="w_PFwlCMdvlXH4RP7YTI-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-20" target="w_PFwlCMdvlXH4RP7YTI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-5" target="w_PFwlCMdvlXH4RP7YTI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-12" target="w_PFwlCMdvlXH4RP7YTI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-8" target="w_PFwlCMdvlXH4RP7YTI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-6" target="w_PFwlCMdvlXH4RP7YTI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-27" target="w_PFwlCMdvlXH4RP7YTI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-29" target="w_PFwlCMdvlXH4RP7YTI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_PFwlCMdvlXH4RP7YTI-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="w_PFwlCMdvlXH4RP7YTI-25" target="w_PFwlCMdvlXH4RP7YTI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,532 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
+  <diagram name="第 1 页" id="gubm_AYZcwlnlxpVFFqG">
+    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;使用者&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fillColor=default;spacing=-62;labelPosition=center;verticalLabelPosition=top;labelBackgroundColor=#FFFFFF;fontSize=18;textShadow=0;labelBorderColor=none;size=40;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="20" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-2" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;使用者介面&lt;/span&gt;&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-3" value="&lt;p style=&quot;&quot;&gt;新增&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-4" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;顯示&lt;/span&gt;&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-5" value="&lt;p style=&quot;&quot;&gt;修改&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-6" value="&lt;p style=&quot;&quot;&gt;公告資料&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="40" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-7" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;刪除&lt;/span&gt;&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="40" width="100" height="990" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="55" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="130" as="sourcePoint" />
+            <mxPoint x="155" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-10" value="1.公告管理()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-9">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-11" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="130" as="sourcePoint" />
+            <mxPoint x="275" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-13" value="2.顯示公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-12">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-14" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="275" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="130" as="sourcePoint" />
+            <mxPoint x="755" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-16" value="3.顯示公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-15">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-17" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="755" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-18" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="127.5" as="sourcePoint" />
+            <mxPoint x="765" y="152.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="157.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-19" value="4.讀取&lt;div&gt;公告資料()&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-18">
+          <mxGeometry x="0.2782" relative="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-20" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="755" y="150" as="sourcePoint" />
+            <mxPoint x="285" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-21" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;5.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-20">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="150" as="sourcePoint" />
+            <mxPoint x="165" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-23" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;6.載入公告()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-22">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-24" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="810" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-25" value="[公告異動]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-26" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="55" y="270" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-27" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="270" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-28" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="47" y="220" width="793" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="280" as="sourcePoint" />
+            <mxPoint x="155" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-30" value="7.新增公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-29">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-31" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="395" y="270" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="280" as="sourcePoint" />
+            <mxPoint x="395" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-33" value="8.新增公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-32">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-34" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="755" y="270" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="280" as="sourcePoint" />
+            <mxPoint x="755" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-36" value="9.新增公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-35">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-37" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="280" as="sourcePoint" />
+            <mxPoint x="765" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-38" value="10.寫入&lt;div&gt;公告資料()&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-37">
+          <mxGeometry x="0.2782" relative="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="395" y="330" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-40" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="275" y="330" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="330" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-42" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="420" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-43" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="340" as="sourcePoint" />
+            <mxPoint x="165" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-44" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;13.顯示錯誤提示()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-43">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-45" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="430" as="sourcePoint" />
+            <mxPoint x="165" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-46" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;14.新增完成()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-45">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-47" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="339.5" as="sourcePoint" />
+            <mxPoint x="285" y="339.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-48" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;12.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-47">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-49" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="755" y="339.9" as="sourcePoint" />
+            <mxPoint x="405" y="339.4999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-50" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;11.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-49">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-51" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="320" width="245" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-52" value="[IF 填寫&lt;div&gt;資訊有誤&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="360" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-53" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;strokeColor=#B3B3B3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="409.5" as="sourcePoint" />
+            <mxPoint x="300" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-54" value="[ELSE]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="420" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-55" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;strokeColor=#B3B3B3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48" y="480" as="sourcePoint" />
+            <mxPoint x="839" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-56" value="[新增公告]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-57" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="55" y="530" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-58" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="530" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-59" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="515" y="530" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="DIKmDL2CIBeXZuD-e3Bo-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="540" as="sourcePoint" />
+            <mxPoint x="395" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-61" value="16.編輯公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-60">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-62" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="755" y="530" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIKmDL2CIBeXZuD-e3Bo-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="540" as="sourcePoint" />
+            <mxPoint x="755" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-64" value="17.編輯公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-63">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-65" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="540" as="sourcePoint" />
+            <mxPoint x="765" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-66" value="18.寫入&lt;div&gt;公告資料()&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-65">
+          <mxGeometry x="0.2782" relative="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-67" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="515" y="590" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-68" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="275" y="590" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-69" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="590" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-70" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="680" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-71" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="690" as="sourcePoint" />
+            <mxPoint x="165" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-72" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;22.編輯完成()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-71">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-73" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="DIKmDL2CIBeXZuD-e3Bo-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="599.5" as="sourcePoint" />
+            <mxPoint x="285" y="599.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-74" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;20.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-73">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-75" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="DIKmDL2CIBeXZuD-e3Bo-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="755" y="599.9" as="sourcePoint" />
+            <mxPoint x="530" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-76" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;19.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-75">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-77" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="580" width="245" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-78" value="[IF 填寫&lt;div&gt;資訊有誤&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="620" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-79" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;strokeColor=#B3B3B3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="669.5" as="sourcePoint" />
+            <mxPoint x="300" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-80" value="[ELSE]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="680" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-81" value="[編輯公告]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="55" y="490" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-82" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="540" as="sourcePoint" />
+            <mxPoint x="155" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-83" value="15.編輯公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-82">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-84" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="600" as="sourcePoint" />
+            <mxPoint x="165" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-85" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;21.顯示錯誤提示()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-84">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-86" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;strokeColor=#B3B3B3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="48" y="740" as="sourcePoint" />
+            <mxPoint x="839" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-87" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="55" y="800" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-88" value="[刪除公告]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="55" y="750" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-89" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="800" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-90" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="635" y="800" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-91" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="755" y="800" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-92" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="635" y="860" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-93" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="275" y="860" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-94" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="860" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-95" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="155" y="950" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-96" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="960" as="sourcePoint" />
+            <mxPoint x="165" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-97" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;30.返回公告管理UI()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;labelBackgroundColor=none;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-96">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-98" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="850" width="245" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-99" value="[ IF&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;確認刪除]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="65" y="890" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-100" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;strokeColor=#B3B3B3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="939.5" as="sourcePoint" />
+            <mxPoint x="300" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-101" value="[ELSE]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="950" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-102" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="870" as="sourcePoint" />
+            <mxPoint x="165" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-103" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;29.刪除完成()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-102">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-104" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="810" as="sourcePoint" />
+            <mxPoint x="155" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-105" value="23.刪除公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-104">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-106" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="810" as="sourcePoint" />
+            <mxPoint x="755" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-107" value="25.刪除公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-106">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-108" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="755" y="870" as="sourcePoint" />
+            <mxPoint x="645" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-109" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;27.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-108">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-110" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="870.4000000000001" as="sourcePoint" />
+            <mxPoint x="285" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-111" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;28.&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-110">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-112" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="DIKmDL2CIBeXZuD-e3Bo-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="810" as="sourcePoint" />
+            <mxPoint x="515" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-113" value="24.刪除公告()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-112">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-114" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="810" as="sourcePoint" />
+            <mxPoint x="765" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="785" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIKmDL2CIBeXZuD-e3Bo-115" value="26.刪除&lt;div&gt;公告資料()&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DIKmDL2CIBeXZuD-e3Bo-114">
+          <mxGeometry x="0.2782" relative="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

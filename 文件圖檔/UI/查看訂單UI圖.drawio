@@ -1,0 +1,255 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="第 1 页" id="z4EbQfH484fJ2Smf4DFc">
+    <mxGraphModel dx="971" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;使用者&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fillColor=default;spacing=-62;labelPosition=center;verticalLabelPosition=top;labelBackgroundColor=#FFFFFF;fontSize=18;textShadow=0;labelBorderColor=none;size=40;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="20" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-2" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;訂單UI&lt;/span&gt;&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-3" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AC&lt;/span&gt;&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="75" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="275" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-7" value="OPT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="720" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-10" value="[查看特定訂單]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="85" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-11" value="[ELSE 操作者身分 = 賣家]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="130" as="sourcePoint" />
+            <mxPoint x="275" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-14" value="1.查看訂單()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-13">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="130" as="sourcePoint" />
+            <mxPoint x="675" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;2.顯示訂單資訊()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-15">
+          <mxGeometry x="0.0002" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-17" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="270" as="sourcePoint" />
+            <mxPoint x="485" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-18" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;6.載入訂單明細資訊()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-17">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-21" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;訂單明細UI&lt;/span&gt;&lt;/p&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;spacingTop=0;fontFamily=Helvetica;fontSize=18;fontColor=default;labelBackgroundColor=none;fillColor=default;labelPosition=center;verticalLabelPosition=middle;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-22" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="675" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-23" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="150" as="sourcePoint" />
+            <mxPoint x="285" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;3.載入訂單資訊()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-23">
+          <mxGeometry x="0.0002" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-25" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="75" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-26" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="475" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-27" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="675" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="250" as="sourcePoint" />
+            <mxPoint x="475" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;4.查看訂單明細()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-28">
+          <mxGeometry x="0.0002" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="250" as="sourcePoint" />
+            <mxPoint x="675" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-31" value="5.顯示訂單明細資訊()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-30">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-32" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="300" width="700" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-33" value="[IF 操作者身分 = 買家]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-35" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="75" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-37" value="OPT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="350" width="680" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-38" value="[修改訂單]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-39" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="475" y="400" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="410" as="sourcePoint" />
+            <mxPoint x="475" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-41" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;7.修改訂單()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-40">
+          <mxGeometry x="0.0002" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="410" as="sourcePoint" />
+            <mxPoint x="675" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-43" value="8.修改訂單()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-42">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-44" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="675" y="400" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-45" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-46" value="[IF 訂單鎖定]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="361" y="490" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-47" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="475" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-48" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="475" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-49" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="490" as="sourcePoint" />
+            <mxPoint x="485" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-50" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;9.無法修改訂單()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-49">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-51" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="550" as="sourcePoint" />
+            <mxPoint x="485" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-52" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;10.修改完成()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-51">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-53" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;strokeColor=#B3B3B3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="529.5" as="sourcePoint" />
+            <mxPoint x="700" y="529.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-54" value="[ELSE]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="550" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-55" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;strokeColor=#B3B3B3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="610" as="sourcePoint" />
+            <mxPoint x="720" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-59" value="OPT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="660" width="680" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-60" value="[列印出貨單]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="670" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-61" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="75" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-62" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="475" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-63" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=bottom;spacingTop=0;fontFamily=Helvetica;fontSize=24;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="675" y="720" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="730" as="sourcePoint" />
+            <mxPoint x="475" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-65" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;11.列印出貨單()&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-64">
+          <mxGeometry x="0.0002" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-68" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="730" as="sourcePoint" />
+            <mxPoint x="675" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-69" value="12.列印出貨單()" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;fontSize=12;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-68">
+          <mxGeometry x="0.0516" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-70" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="750" as="sourcePoint" />
+            <mxPoint x="485" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3K0cyjWzm3jUK4HSRkyA-71" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;13.列印完成()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="3K0cyjWzm3jUK4HSRkyA-70">
+          <mxGeometry x="0.0097" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

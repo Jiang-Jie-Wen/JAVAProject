@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="第 1 页" id="c9nrxZ6m_fznx4qMLzaQ">
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5wjcvt6swfkerk996Y6j-1" value="登入" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=24;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5wjcvt6swfkerk996Y6j-3" target="5wjcvt6swfkerk996Y6j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-3" value="輸入&lt;div style=&quot;font-size: 24px;&quot;&gt;帳號密碼&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5wjcvt6swfkerk996Y6j-6" target="5wjcvt6swfkerk996Y6j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5wjcvt6swfkerk996Y6j-6" target="5wjcvt6swfkerk996Y6j-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-6" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-7" value="確認帳號密碼是否正確" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5wjcvt6swfkerk996Y6j-9" target="5wjcvt6swfkerk996Y6j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-9" value="登入成功" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5wjcvt6swfkerk996Y6j-11" target="5wjcvt6swfkerk996Y6j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-11" value="顯示&lt;div style=&quot;font-size: 24px;&quot;&gt;錯誤提示&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-12" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="620" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5wjcvt6swfkerk996Y6j-14" target="5wjcvt6swfkerk996Y6j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5wjcvt6swfkerk996Y6j-16" target="5wjcvt6swfkerk996Y6j-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-16" value="1.1&lt;div style=&quot;font-size: 14px;&quot;&gt;帳號&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;密碼&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=20;align=left;spacingLeft=5;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-17" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5wjcvt6swfkerk996Y6j-18" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

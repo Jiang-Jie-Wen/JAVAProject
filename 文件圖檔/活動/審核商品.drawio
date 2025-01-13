@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="第 1 页" id="RWKmjE3i4CNgwDCqG_J1">
+    <mxGraphModel dx="852" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-65" value="審核商品" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=24;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-67" value="顯示&lt;div&gt;所有&lt;span style=&quot;background-color: initial;&quot;&gt;商品&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-76" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-78" target="GfpfM2YKB0rqQeHqrgfo-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-78" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-79" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-80" target="GfpfM2YKB0rqQeHqrgfo-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-80" value="10.1&amp;nbsp;&lt;div&gt;需要先登入&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=20;align=left;spacingLeft=5;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="514" y="135" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-119" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-120" target="GfpfM2YKB0rqQeHqrgfo-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-120" value="10.2&lt;br&gt;&lt;div&gt;商品名稱&lt;/div&gt;&lt;div&gt;商品圖片&lt;/div&gt;&lt;div&gt;商品售價&lt;/div&gt;&lt;div&gt;單位&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=20;align=left;spacingLeft=5;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="514" y="232.5" width="100" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-125" target="GfpfM2YKB0rqQeHqrgfo-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-125" target="GfpfM2YKB0rqQeHqrgfo-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-125" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-127" value="審核商品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-128" target="GfpfM2YKB0rqQeHqrgfo-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-128" value="變更商品狀態&lt;br&gt;(未通過)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-130" value="變更商品狀態&lt;br&gt;(通過)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="420" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-131" target="GfpfM2YKB0rqQeHqrgfo-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="640" />
+              <mxPoint x="200" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GfpfM2YKB0rqQeHqrgfo-131" target="GfpfM2YKB0rqQeHqrgfo-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-131" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="620" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-138" value="未通過" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-139" value="通過" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-140" value="是否繼續&lt;div&gt;審核其他商品&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="600" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-141" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GfpfM2YKB0rqQeHqrgfo-142" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="384" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
